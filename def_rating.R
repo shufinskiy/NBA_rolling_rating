@@ -52,7 +52,7 @@ rolling_def_rating_nba <- function(table, name, variable = DRTG, col1 = col1, co
   data <- data[[1,1]]
 
 ##Getting color and color_name selected color
-  table_color <- read_delim("F:/NBA_20191705/Excel/Team_color.csv", delim = ";", col_names = TRUE)
+  table_color <- read_delim("./data/Team_color.csv", delim = ";", col_names = TRUE)
   
   color1 <- table_color %>%
     filter(TEAM_ABBREVIATION == name) %>%
