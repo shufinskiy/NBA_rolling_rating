@@ -3,4 +3,4 @@ Features to calculate 10-game moving average for offensive, defensive and net ra
 
 ![GIF](DEN_DRTG.gif)
 
-
+![GIF](DEN_NRTG.gif)
