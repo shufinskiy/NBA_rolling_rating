@@ -78,7 +78,7 @@ rolling_offnet_rating_nba <- function(table, name, variable, col1 = col1, col2 =
     arrange(GAME_DATE)
   data <- data[[1,1]]
 
-  table_color <- read_delim("F:/NBA_20191705/Excel/Team_color.csv", delim = ";", col_names = TRUE)
+  table_color <- read_delim("./data/Team_color.csv", delim = ";", col_names = TRUE)
 
 ##Getting color and color_name selected color
   color1 <- table_color %>%
