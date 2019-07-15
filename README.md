@@ -60,7 +60,18 @@ rename_at(vars(starts_with("E_")),
 
 Таблица:
 
-
+|TEAM_ID|	TEAM_ABBREVIATION|	TEAM_NAME|	GAME_ID|	GAME_DATE|	MATCHUP|	WL|	ORTG|	DRTG|	NRTG|
+|---|---|---|---|---|---|---|---|---|---|
+|1610612742|	DAL|	Dallas Mavericks|	0021801227|	2019-04-10T00:00:00|	DAL @ SAS|	L|	97.6|	106.1|	-8.5|
+|1610612754|	IND|	Indiana Pacers|	0021801220|	2019-04-10T00:00:00|	IND @ ATL|	W|	122.5|	116.8|	5.7|
+|1610612744|	GSW|	Golden State Warriors|	0021801225|	2019-04-10T00:00:00|	GSW @ MEM|	L|	113.4|	129.5|	-16.1|
+|1610612765|	DET|	Detroit Pistons|	0021801223|	2019-04-10T00:00:00|	DET @ NYK|	W|	118.8|	93.7|	25.1|
+|1610612741|	CHI|	Chicago Bulls|	0021801224|	2019-04-10T00:00:00|	CHI @ PHI|	L|	108.3|	128.1|	-19.7|
+|1610612737|	ATL|	Atlanta Hawks|	0021801220|	2019-04-10T00:00:00|	ATL vs. IND|	L|	116.8|	122.5|	-5.7|
+|1610612755|	PHI|	Philadelphia 76ers|	0021801224|	2019-04-10T00:00:00v	PHI vs. CHI|	W|	128.1|	108.3|	19.7|
+|1610612753|	ORL|	Orlando Magic|	0021801222|	2019-04-10T00:00:00|	ORL @ CHA|	W|	130.1|	121.4|	8.6|
+|1610612760|	OKC|	Oklahoma City Thunder|	0021801226|	2019-04-10T00:00:00|	OKC @ MIL|	W|	116.8|	102.4|	14.4|
+|1610612751|	BKN|	Brooklyn Nets|	0021801221|	2019-04-10T00:00:00|	BKN vs. MIA|	W|	103.6|	84.2|	19.4|
 
 ### Создание функции **rolling_offnet_rating_nba** для построения графиков.
 
