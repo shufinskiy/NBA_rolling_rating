@@ -130,7 +130,7 @@ rename_at(vars(starts_with("E_")),
 Получаем значения цветов и их названия
 
 ```r
-table_color <- read_delim("F:/NBA_20191705/Excel/Team_color.csv", delim = ";", col_names = TRUE)
+table_color <- read_delim("./data/Team_color.csv", delim = ";", col_names = TRUE)
 ##Getting color and color_name selected color
   color1 <- table_color %>%
     filter(TEAM_ABBREVIATION == name) %>%
